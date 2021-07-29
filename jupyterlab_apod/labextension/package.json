@@ -86,7 +86,7 @@
     "extension": true,
     "outputDir": "jupyterlab_apod/labextension",
     "_build": {
-      "load": "static/remoteEntry.13b1184c727cf511ddad.js",
+      "load": "static/remoteEntry.254dcce649c0e8b4ec42.js",
       "extension": "./extension",
       "style": "./style"
     }
