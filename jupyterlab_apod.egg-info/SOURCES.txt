@@ -22,10 +22,10 @@ jupyterlab_apod.egg-info/requires.txt
 jupyterlab_apod.egg-info/top_level.txt
 jupyterlab_apod/labextension/build_log.json
 jupyterlab_apod/labextension/package.json
-jupyterlab_apod/labextension/static/lib_index_js.2ab75d47a02d6ce041b9.js
-jupyterlab_apod/labextension/static/lib_index_js.2ab75d47a02d6ce041b9.js.map
-jupyterlab_apod/labextension/static/remoteEntry.13b1184c727cf511ddad.js
-jupyterlab_apod/labextension/static/remoteEntry.13b1184c727cf511ddad.js.map
+jupyterlab_apod/labextension/static/lib_index_js.8fc2c3953c1dc0164a67.js
+jupyterlab_apod/labextension/static/lib_index_js.8fc2c3953c1dc0164a67.js.map
+jupyterlab_apod/labextension/static/remoteEntry.cdea5e44376b3f2e3038.js
+jupyterlab_apod/labextension/static/remoteEntry.cdea5e44376b3f2e3038.js.map
 jupyterlab_apod/labextension/static/style.js
 jupyterlab_apod/labextension/static/style_index_js.28b9ffbb0890affac757.js
 jupyterlab_apod/labextension/static/style_index_js.28b9ffbb0890affac757.js.map
@@ -33,8 +33,10 @@ jupyterlab_apod/labextension/static/vendors-node_modules_css-loader_dist_runtime
 jupyterlab_apod/labextension/static/vendors-node_modules_css-loader_dist_runtime_api_js-node_modules_css-loader_dist_runtime_cssW-926fd9.5ddd2c3b45e7cd52a090.js.map
 src/handler.ts
 src/index.ts
+src/index.tsx
 src/.ipynb_checkpoints/handler-checkpoint.ts
 src/.ipynb_checkpoints/index-checkpoint.ts
+src/.ipynb_checkpoints/widgets-checkpoint.tsx
 style/base.css
 style/index.css
 style/index.js

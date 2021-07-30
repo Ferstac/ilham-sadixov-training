@@ -23,7 +23,6 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "style": "style/index.css",
-  "widgets": "lib/widgets.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/my_name/jupyterlab_apod.git"
