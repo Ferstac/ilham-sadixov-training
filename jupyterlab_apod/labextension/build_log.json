@@ -590,6 +590,10 @@
               "import": false,
               "singleton": true
             },
+            "@phosphor/coreutils": {},
+            "@phosphor/messaging": {},
+            "@phosphor/widgets": {},
+            "prop-types": {},
             "jupyterlab_apod": {
               "version": "0.1.0",
               "singleton": true,

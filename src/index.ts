@@ -14,12 +14,6 @@ import { Message } from '@lumino/messaging';
 
 import { Widget } from '@lumino/widgets';
 
-import { ILauncher } from '@jupyterlab/launcher';
-
-import { reactIcon } from '@jupyterlab/ui-components';
-
-import { CounterWidget } from './widget';
-
 interface APODResponse {
   copyright: string;
   date: string;
@@ -152,7 +146,8 @@ function activate(
   let tracker = new WidgetTracker<MainAreaWidget<APODWidget>>({
     namespace: 'apod'
   });
-  restorer.restore(tracker, {
+  // @ts-ignore
+  restorer.restore(tracker,{
     command,
     name: () => 'apod'
   });
