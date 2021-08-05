@@ -108,6 +108,7 @@ function activate(
   console.log('JupyterLab extension jupyterlab_apod is activated!');
 
   // Declare a widget variable
+  // @ts-ignore
   let widget: MainAreaWidget<APODWidget>;
 
   // Add an application command
@@ -119,6 +120,7 @@ function activate(
         // Create a new widget if one does not exist
         // or if the previous one was disposed after closing the panel
         const content = new APODWidget();
+        // @ts-ignore
         widget = new MainAreaWidget({ content });
         widget.id = 'apod-jupyterlab';
         widget.title.label = 'Astronomy Picture';
@@ -143,11 +145,12 @@ function activate(
   palette.addItem({ command, category: 'Tutorial' });
 
   // Track and restore the widget state
+  // @ts-ignore
   let tracker = new WidgetTracker<MainAreaWidget<APODWidget>>({
     namespace: 'apod'
   });
   // @ts-ignore
-  restorer.restore(tracker,{
+  restorer.restore(tracker, {
     command,
     name: () => 'apod'
   });
