@@ -2851,8 +2851,8 @@
         "signature": "81ba1fc39f0133d2894ffacbba6dcd6f0464f2f10f0442afae4bd1796fa235c6",
         "affectsGlobalScope": false
       },
-      "./src/widgets.tsx": {
-        "version": "edfd99f9c4ea3519aac18c5a733ed552967e179188e0361bea7a3d3c428fe932",
+      "./src/index.tsx": {
+        "version": "14d4491a0c57b0c254e17a08cf03e29d6ae413f3268f496750e945c13011b441",
         "signature": "eeccfdf4f1a0c745c29e67700afada6403fae9c7bb76cef5e8b1bbcbfaa9410d",
         "affectsGlobalScope": false
       }
@@ -5871,7 +5871,7 @@
         "./node_modules/@lumino/messaging/types/index.d.ts",
         "./node_modules/@lumino/widgets/types/index.d.ts"
       ],
-      "./src/widgets.tsx": [
+      "./src/index.tsx": [
         "./node_modules/@jupyterlab/application/lib/index.d.ts",
         "./node_modules/@jupyterlab/apputils/lib/index.d.ts",
         "./node_modules/@lumino/widgets/types/index.d.ts",
@@ -8863,7 +8863,7 @@
       "./src/index.ts": [
         "./node_modules/@jupyterlab/application/lib/index.d.ts"
       ],
-      "./src/widgets.tsx": [
+      "./src/index.tsx": [
         "./node_modules/@jupyterlab/application/lib/index.d.ts"
       ]
     },
@@ -9438,7 +9438,117 @@
       "./node_modules/yjs/dist/src/utils/updates.d.ts",
       "./src/handler.ts",
       "./src/index.ts",
-      "./src/widgets.tsx"
+      [
+        "./src/index.tsx",
+        [
+          {
+            "file": "./src/index.tsx",
+            "start": 1166,
+            "length": 7,
+            "code": 2322,
+            "category": 1,
+            "messageText": {
+              "messageText": "Type 'ReactWidget' is not assignable to type 'Widget'.",
+              "category": 1,
+              "code": 2322,
+              "next": [
+                {
+                  "messageText": "The types of 'title.owner.layout' are incompatible between these types.",
+                  "category": 1,
+                  "code": 2200,
+                  "next": [
+                    {
+                      "messageText": "Type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@jupyterlab/application/node_modules/@lumino/widgets/types/layout\").Layout | null' is not assignable to type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@lumino/widgets/types/layout\").Layout | null'.",
+                      "category": 1,
+                      "code": 2322,
+                      "next": [
+                        {
+                          "messageText": "Type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@jupyterlab/application/node_modules/@lumino/widgets/types/layout\").Layout' is not assignable to type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@lumino/widgets/types/layout\").Layout'.",
+                          "category": 1,
+                          "code": 2322,
+                          "next": [
+                            {
+                              "messageText": "Types of property 'removeWidget' are incompatible.",
+                              "category": 1,
+                              "code": 2326,
+                              "next": [
+                                {
+                                  "messageText": "Type '(widget: import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@jupyterlab/application/node_modules/@lumino/widgets/types/widget\").Widget) => void' is not assignable to type '(widget: import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@lumino/widgets/types/widget\").Widget) => void'.",
+                                  "category": 1,
+                                  "code": 2322,
+                                  "next": [
+                                    {
+                                      "messageText": "Types of parameters 'widget' and 'widget' are incompatible.",
+                                      "category": 1,
+                                      "code": 2328,
+                                      "next": [
+                                        {
+                                          "messageText": "Type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@lumino/widgets/types/widget\").Widget' is not assignable to type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@jupyterlab/application/node_modules/@lumino/widgets/types/widget\").Widget'.",
+                                          "category": 1,
+                                          "code": 2322,
+                                          "next": [
+                                            {
+                                              "messageText": "Types of property 'title' are incompatible.",
+                                              "category": 1,
+                                              "code": 2326,
+                                              "next": [
+                                                {
+                                                  "messageText": "Type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@lumino/widgets/types/title\").Title<import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@lumino/widgets/types/widget\").Widget>' is not assignable to type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@jupyterlab/application/node_modules/@lumino/widgets/types/title\").Title<import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@jupyterlab/application/node_modules/@lumino/widgets/types/widget\").Widget>'.",
+                                                  "category": 1,
+                                                  "code": 2322,
+                                                  "next": [
+                                                    {
+                                                      "messageText": "Types have separate declarations of a private property '_label'.",
+                                                      "category": 1,
+                                                      "code": 2442
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "file": "./src/index.tsx",
+            "start": 1389,
+            "length": 7,
+            "code": 2322,
+            "category": 1,
+            "messageText": "Type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@lumino/widgets/types/widget\").Widget' is not assignable to type 'import(\"/home/ilham/git/tns/ilham-sadixov-training/node_modules/@jupyterlab/application/node_modules/@lumino/widgets/types/widget\").Widget'.",
+            "relatedInformation": [
+              {
+                "file": "./node_modules/@jupyterlab/apputils/lib/mainareawidget.d.ts",
+                "start": 2696,
+                "length": 7,
+                "messageText": "The expected type comes from property 'content' which is declared here on type 'IOptions<Widget>'",
+                "category": 3,
+                "code": 6500
+              }
+            ]
+          }
+        ]
+      ]
+    ],
+    "affectedFilesPendingEmit": [
+      [
+        "./src/index.tsx",
+        1
+      ]
     ]
   },
   "version": "4.1.6"

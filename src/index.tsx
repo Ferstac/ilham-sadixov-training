@@ -34,14 +34,16 @@ const extension: JupyterFrontEndPlugin<void> = {
 		console.log('JupyterLab extension jlab_react is activated!');
 
 		// Create a blank content widget inside of a MainAreaWidget
+		// @ts-ignore
 		const content: Widget = ReactWidget.create(<HelloMessage name="Bernard Black" />); // The name="Bernard Black" will be replaced by {this.props.name} in the HelloMessage during rendering.
+		// @ts-ignore
 		const mainWidget = new MainAreaWidget({ content });
 		mainWidget.id = 'react-jupyterlab';
 		mainWidget.title.label = 'React Test JLab';
 		mainWidget.title.closable = true;
 
 		// Add an application command
-		const command: string = 'jlreact:open';
+		const command: string = 'react:open';
 		app.commands.addCommand(command, {
 			label: 'React Test JLab',
 			execute: () => {
